@@ -5,7 +5,7 @@
         <router-link :to="{ path: '/' }">
           <div class="flex justify-center items-center">
             <img
-              src="../assets/logo.png"
+              src="../assets/cc-logo.png"
               alt="currency-conversion-logo"
               class="w-12 h-12 rounded-full"
             />

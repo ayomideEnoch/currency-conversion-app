@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
+import Learn from '../views/Learn.vue'
+import Developers from '../views/Developers.vue'
+import Enterprise from '../views/Enterprise.vue'
+import Community from '../views/Community.vue'
 
 
 Vue.use(VueRouter)
@@ -9,15 +11,24 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Learn',
+    component: Learn
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About
+    path: '/developers',
+    name: 'Developers',
+    component: Developers
   },
-  
+  {
+    path: '/enterprise',
+    name: 'Enterprise',
+    component: Enterprise
+  },
+  {
+    path: '/community',
+    name: 'Community',
+    component: Community
+  } 
 ]
 
 const router = new VueRouter({
